@@ -1,0 +1,40 @@
+TITLE     68960
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+HETATM    1  S1  UNK   900       3.461   0.268   0.270  1.00  0.00           S  
+HETATM    2  N1  UNK   900       0.857  -0.404  -0.382  1.00  0.00           N  
+HETATM    3  C1  UNK   900      -1.573   0.034  -0.290  1.00  0.00           C  
+HETATM    4  C2  UNK   900      -0.172   0.524   0.095  1.00  0.00           C  
+HETATM    5  C3  UNK   900      -1.873  -1.348   0.293  1.00  0.00           C  
+HETATM    6  C4  UNK   900      -2.657   1.035   0.114  1.00  0.00           C  
+HETATM    7  C5  UNK   900       1.957  -0.109  -0.099  1.00  0.00           C  
+HETATM    8  H1  UNK   900      -1.607  -0.062  -1.383  1.00  0.00           H  
+HETATM    9  H2  UNK   900      -0.011   1.519  -0.344  1.00  0.00           H  
+HETATM   10  H3  UNK   900      -0.114   0.633   1.187  1.00  0.00           H  
+HETATM   11  H4  UNK   900      -1.821  -1.334   1.387  1.00  0.00           H  
+HETATM   12  H5  UNK   900      -2.877  -1.679   0.007  1.00  0.00           H  
+HETATM   13  H6  UNK   900      -1.164  -2.098  -0.072  1.00  0.00           H  
+HETATM   14  H7  UNK   900      -2.685   1.169   1.200  1.00  0.00           H  
+HETATM   15  H8  UNK   900      -3.645   0.693  -0.212  1.00  0.00           H  
+HETATM   16  H9  UNK   900      -2.473   2.012  -0.345  1.00  0.00           H  
+CONECT    1    7
+CONECT    1    7
+CONECT    2    4    7
+CONECT    2    7
+CONECT    3    4    5    6    8
+CONECT    4    2    3    9   10
+CONECT    5    3   11   12   13
+CONECT    6    3   14   15   16
+CONECT    7    1    2
+CONECT    7    1    2
+CONECT    8    3
+CONECT    9    4
+CONECT   10    4
+CONECT   11    5
+CONECT   12    5
+CONECT   13    5
+CONECT   14    6
+CONECT   15    6
+CONECT   16    6
+END   

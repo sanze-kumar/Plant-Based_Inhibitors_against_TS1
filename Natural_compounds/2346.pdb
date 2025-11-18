@@ -1,0 +1,48 @@
+TITLE     2346
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+HETATM    1  S1  UNK   900       4.617  -0.045  -0.010  1.00  0.00           S  
+HETATM    2  N1  UNK   900       1.897   0.043  -0.503  1.00  0.00           N  
+HETATM    3  C1  UNK   900      -0.411   0.014   0.342  1.00  0.00           C  
+HETATM    4  C2  UNK   900       1.040   0.036   0.689  1.00  0.00           C  
+HETATM    5  C3  UNK   900      -1.106   1.211   0.175  1.00  0.00           C  
+HETATM    6  C4  UNK   900      -1.072  -1.204   0.184  1.00  0.00           C  
+HETATM    7  C5  UNK   900      -2.463   1.191  -0.149  1.00  0.00           C  
+HETATM    8  C6  UNK   900      -2.428  -1.225  -0.141  1.00  0.00           C  
+HETATM    9  C7  UNK   900      -3.124  -0.027  -0.307  1.00  0.00           C  
+HETATM   10  C8  UNK   900       3.048   0.006  -0.280  1.00  0.00           C  
+HETATM   11  H1  UNK   900       1.247   0.919   1.310  1.00  0.00           H  
+HETATM   12  H2  UNK   900       1.268  -0.835   1.322  1.00  0.00           H  
+HETATM   13  H3  UNK   900      -0.602   2.167   0.293  1.00  0.00           H  
+HETATM   14  H4  UNK   900      -0.541  -2.144   0.309  1.00  0.00           H  
+HETATM   15  H5  UNK   900      -3.004   2.124  -0.279  1.00  0.00           H  
+HETATM   16  H6  UNK   900      -2.943  -2.173  -0.264  1.00  0.00           H  
+HETATM   17  H7  UNK   900      -4.180  -0.043  -0.560  1.00  0.00           H  
+CONECT    1   10
+CONECT    1   10
+CONECT    2    4   10
+CONECT    2   10
+CONECT    3    4    5    6
+CONECT    3    5
+CONECT    4    2    3   11   12
+CONECT    5    3    7   13
+CONECT    5    3
+CONECT    6    3    8   14
+CONECT    6    8
+CONECT    7    5    9   15
+CONECT    7    9
+CONECT    8    6    9   16
+CONECT    8    6
+CONECT    9    7    8   17
+CONECT    9    7
+CONECT   10    1    2
+CONECT   10    1    2
+CONECT   11    4
+CONECT   12    4
+CONECT   13    5
+CONECT   14    6
+CONECT   15    7
+CONECT   16    8
+CONECT   17    9
+END   
